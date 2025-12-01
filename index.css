@@ -46,7 +46,8 @@
 .home-fill-the-form {
   margin: 0.5%;
   text-align: center;
-  text-decoration: underline none;
+  text-decoration: underline;
+  color: blue;
 }
  
 .home-services-we-offer {
