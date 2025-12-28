@@ -30,7 +30,27 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
+.home-page-logo {
+gap: 0;
+width: 100%
+height: 10%
+}
+
+.rate-chart-table {
+                   border: 1px solid black;
+                   border-collapse: collapse;
+                   margin: 2%;
+}
+
+.rate-chart-table-column{
+background-color: #96D4D4;
+}
+
+.rate-chart-table-cell{
+padding: 2%;
+}
+
 .home-notification {
   margin: 0.5%;
 }
@@ -51,7 +71,7 @@
 }
  
 .home-services-we-offer {
-  width: 401px;
+  width: 80%px;
   height: 640px;
   object-fit: cover;
 }
@@ -127,6 +147,10 @@
     width: 90%;
     height: auto;
   }
+    .home-notification-container2 {
+      width: 90%;
+      height: auto;
+    }
   .home-notification {
     margin-top: 1%;
     text-align: center;
